@@ -22,9 +22,9 @@
         @endif
         <div>
             <div>
-                <button href="{{ route('contacts.create') }}"
+                <a href="{{ route('contacts.create') }}"
                  class="btn btn-primary m-3">
-                    New contact</button>
+                    New contact</a>
             </div>
             <table class="table table-striped">
                 <thead>
